@@ -1,0 +1,18 @@
+/motor_node:
+  ros__parameters:
+    # Serial port configuration
+    device_name: /dev/ttyACM0
+    baud_rate: 1000000
+    flow_control: none
+    parity: none
+    stop_bits: "1"
+
+    #  Motor configuration
+    motor_list:
+      - "head_roll 1 2000 2500 1600 80 10"
+      - "head_pitch 2 2000 2500 1600  80 10"
+      - "head_yaw 3 1000 3796 300 40 10"
+      # - "wing_left 4 3400 2500 1600 50 10"
+      # - "wing_right 5 2150 2500 1600 50 10"
+
+
